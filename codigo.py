@@ -1,4 +1,4 @@
-# Hashzap
+# ZapZap do Sherek
 # flet -> Constrói backend/frontend
 # Botão de iniciar o chat
 # Popup para entrar no chat 
