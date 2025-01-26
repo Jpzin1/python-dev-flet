@@ -11,6 +11,16 @@
 import flet as ft
 
 def main(pagina):
+
+    img = ft.Image(
+        src="sherek.png",
+        width=200,
+        height=200,
+        fit=ft.ImageFit.CONTAIN,
+    )
+
+    pagina.add(img)
+
     texto = ft.Text("ZapZap do Sherek", color=ft.colors.GREEN_500)
 
     chat = ft.Column()
@@ -81,7 +91,7 @@ def main(pagina):
     pagina.add(texto)
     pagina.add(botao_iniciar)
 
-ft.app(target=main, view=ft.WEB_BROWSER, port=8000)
+ft.app(target=main, assets_dir="imagens", view=ft.WEB_BROWSER, port=8000)
 
 
 
